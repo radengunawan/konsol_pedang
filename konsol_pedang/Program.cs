@@ -22,7 +22,7 @@ namespace konsol_pedang
 
                 kped.Roll = roll;
                 kped.AturKeajaiban (kunchee == '1' || kunchee == '3');
-                kped.AturNyalaApi (kunchee == '2' || kunchee == '4');
+                kped.AturNyalaApi (kunchee == '2' || kunchee == '3');
 
 
                 Console.WriteLine("\nRolled " + roll + " for " + kped.Kerusakan + " HP\n");

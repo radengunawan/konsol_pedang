@@ -12,7 +12,7 @@ namespace konsol_pedang
         public int Roll;
         public decimal PengaliAjaib = 1M;
         public int RusakTerbakar = 0;
-        public int Kerusakan;
+        public float Kerusakan;
 
         public void HitungKerusakan()
         {
